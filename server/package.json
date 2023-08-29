@@ -20,6 +20,7 @@
     "mongoose": "^7.4.1",
     "morgan": "^1.10.0",
     "node-cache": "^5.1.2",
+    "node-html-parser": "^6.1.6",
     "nodemon": "^3.0.1",
     "youtube-transcript": "^1.0.6"
   },
