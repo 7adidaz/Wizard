@@ -1,4 +1,4 @@
-const jsdom = require('jsdom')
+const parser = require('node-html-parser')
 
 
 module.exports = async (url) => {
@@ -6,8 +6,9 @@ module.exports = async (url) => {
         let article = null;
         const res = await fetch(url);
         const text = await res.text();
-        const dom = new jsdom.JSDOM(text);
-        article = dom.window.document.querySelector('article').textContent;
+
+        article = parser.parse(text)
+        article = article.getElementsByTagName('article')[0].text
 
         return article
     } catch (err) {
