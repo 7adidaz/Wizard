@@ -41,7 +41,7 @@ async function init() {
 (async () => {
     cache.flushAll(); //clear cache, in case of model changes
     await init();
-    app.listen(3000)
+    app.listen(process.env.PORT || 3001)
 })()
 
 exports.app = app;

@@ -1,0 +1,1 @@
+Wizard AI is an AI assistant that uses API Calls 
