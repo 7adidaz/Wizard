@@ -1,0 +1,31 @@
+{
+  "name": "extention_hackathon",
+  "version": "1.0.0",
+  "description": "ai assistant",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon start"
+  },
+  "author": "abdallah",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.5.3",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsdom": "^22.1.0",
+    "jsonwebtoken": "^9.0.1",
+    "mindsdb-js-sdk": "^2.2.2",
+    "mongoose": "^7.4.1",
+    "morgan": "^1.10.0",
+    "node-cache": "^5.1.2",
+    "nodemon": "^3.0.1",
+    "youtube-transcript": "^1.0.6"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "supertest": "^6.3.3"
+  }
+}
