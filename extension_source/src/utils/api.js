@@ -1,6 +1,7 @@
 // api.js
 import axios from 'axios'
-const BASE_URL = 'http://localhost:3000'
+// const BASE_URL = 'http://localhost:3000'
+const BASE_URL = 'https://wizard-bxze.onrender.com'
 
 export async function summarizeYoutubeVideo(url) {
   try {
