@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "Wizard Ai",
+    "description": "Wizard Ai",
+    "version": "1.1",
+    "action": {
+        "default_popup": "./../index.html",
+        "default_icon": "./logo.png"
+    },
+
+    "permissions": ["activeTab", "tabs", "webNavigation"],
+    "icons": {
+        "48": "./logo.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://www.youtube.com/watch*"],
+            "js": ["content.js"],
+            "css": ["styles.css"]
+        },
+        {
+            "matches": ["*://mail.google.com/*"],
+            "js": ["gmailreply.js"],
+            "css": ["styles.css"]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["https://www.youtube.com/iframe_api"],
+            "matches": ["https://www.youtube.com/*"]
+        }
+    ]
+}

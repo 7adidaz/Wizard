@@ -44,7 +44,7 @@ exports.summarizeVideo = async (req, res, next) => {
         }
 
         const findId = function (url) {
-            var match = url.match(/v=([0-9a-z_-]{1,20})/i); //TODO:  change this regex
+            var match = url.match(/http(?:s?):\/\/(?:www\.)?youtu(?:be\.com\/watch\?v=|\.be\/)([\w\-\_]*)(&(amp;)[\w\=]*)?/i); 
             return (match ? match['1'] : undefined);
         }
 
