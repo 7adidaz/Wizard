@@ -12,10 +12,10 @@ https://github.com/7adidaz/Wizard/assets/86894852/01534011-133f-4531-93ba-d1336d
 
 ### What is the best way to use the extension? 
 - Don't try to summarize videos longer than 20 minutes (it will just make you wait, then respond with an error!).
-- Article summary only works for websites with the `<article>` tag only (we extract the article from the tag and its children).
+- Article summary only works for websites with the `<article>` tag (we extract the article from the tag and its children).
 - For all text-related services, please don't try to put text that is longer than 2500 characters, it will just reject the request!
 
-### Technologies uses: 
+### Technologies & Packages used: 
 -   Node.js 
     - Mindsdb-js-sdk
     - Node-cache
@@ -63,4 +63,6 @@ MindsDB_PASSWORD="YOUR_MINDSDB_PASSWORD"
 ```
 
 6. change the .env file in the [extension_source](./extension_source) to have your api's link.
-7. **Voila**! it works! 
+7. **Voila**! it works!
+
+This project was for a hackathon conducted by the amazing people in [MindDB](https://mindsdb.com/) 
