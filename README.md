@@ -1,10 +1,35 @@
 # Wizard AI is an AI assistant that helps save your time. 
-Demo: 
+Full demo: 
+
 
 https://github.com/7adidaz/Wizard/assets/86894852/01534011-133f-4531-93ba-d1336dbab631
 
-### How to use the extension? 
-1. Downloads the extension from the [extension](./extension) file
+
+Summarizing a video demo: 
+
+https://github.com/7adidaz/Wizard/assets/86894852/eca6e004-e914-464c-9ee1-d0c8fe9c3b85
+
+Summarizing an article demo: 
+
+https://github.com/7adidaz/Wizard/assets/86894852/7dd64f75-84ab-4c3e-817e-6077b70dd359
+
+Replying to an Email demo: 
+
+https://github.com/7adidaz/Wizard/assets/86894852/11ed2d67-fc8c-4032-9def-5ed02d884984
+
+Summarizing a text demo: 
+
+https://github.com/7adidaz/Wizard/assets/86894852/3c2c03fa-5ce4-4ea7-8a0f-66cdf03d3e22
+
+Explaining something demo:
+
+https://github.com/7adidaz/Wizard/assets/86894852/6f7c8925-12fa-43a1-aad8-97930eefdaa2
+
+### How to install the extension? 
+
+https://github.com/7adidaz/Wizard/assets/86894852/ce634214-9fd2-4148-a277-be7b5517debc
+
+1. Downloads the extension from the [extension](./extension) folder
 2. Go to the extension manager in your browser
 3. Enable **Developer mode**
 4. Choose **Load unpacked**
@@ -62,7 +87,7 @@ MindsDB_EMAIL="YOUR_MINDSDB_EMAIL"
 MindsDB_PASSWORD="YOUR_MINDSDB_PASSWORD"
 ```
 
-6. change the .env file in the [extension_source](./extension_source) to have your api's link.
+6. Change the .env file in the [extension_source](./extension_source) to have your api's link.
 7. **Voila**! it works!
 
 This project was for a hackathon conducted by the amazing people in [MindDB](https://mindsdb.com/) 
